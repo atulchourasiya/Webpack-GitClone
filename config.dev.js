@@ -40,8 +40,8 @@ module.exports={
    },
    compress: true,
    port: 3200,
-   // devMiddleware: {
-   //    writeToDisk: true
-   //  }
+    devMiddleware: {
+       writeToDisk: true 
+     } // Create a build file
  }
 }
